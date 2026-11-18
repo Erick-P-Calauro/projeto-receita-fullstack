@@ -20,7 +20,7 @@ main {
 
     background-color: #F0E8C2;
 
-    margin: 48px auto;
+    margin: 48px auto 28px auto;
 }
 
 #container {
@@ -44,7 +44,8 @@ h2 {
     margin-bottom: 4px;
 }
 
-p, li {
+p, li, footer {
+    font-family: "Alice", serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 150%;
@@ -54,6 +55,12 @@ img {
     width: auto;
     height: 400px;
     border-radius: 16px;
+}
+
+footer img {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
 }
 
 #info {
@@ -66,4 +73,11 @@ section {
 
 ul {
     padding-left: 26px;
+}
+
+footer {
+    text-align: center;
+    color: #F0E8C2;
+
+    margin-bottom: 48px;
 }
