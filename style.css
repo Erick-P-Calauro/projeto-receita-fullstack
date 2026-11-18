@@ -1,5 +1,8 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+
     font-family: "Alice", serif;
     color: #573A37
 }
@@ -20,11 +23,16 @@ main {
     margin: 48px auto;
 }
 
+#container {
+    padding: 24px;
+}
+
 h1 {
     font-size: 40px;
     font-weight: 400;
     line-height: 140%;
-    color: #291B1A
+    color: #291B1A;
+    margin-bottom: 4px;
 }
 
 h2 {
@@ -32,6 +40,8 @@ h2 {
     font-weight: 400;
     line-height: 150%;
     color: #291B1A;
+
+    margin-bottom: 4px;
 }
 
 p, li {
@@ -44,4 +54,16 @@ img {
     width: auto;
     height: 400px;
     border-radius: 16px;
+}
+
+#info {
+    margin-top: 12px;
+}
+
+section {
+    margin-top : 24px;
+}
+
+ul {
+    padding-left: 26px;
 }
